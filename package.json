@@ -17,7 +17,7 @@
     "mock"
   ],
   "license": "GPL-3.0",
-  "main": "src/index.ts",
+	"main": "./dist/index.js",
   "name": "lite-ts-mock",
   "repository": {
     "type": "git",
@@ -29,5 +29,5 @@
     "release": "npm run build && npm publish && npm config delete https-proxy && npm config set registry=https://registry.npm.taobao.org",
     "test": "mocha -t 30s -r ./node_modules/ts-node/register/index.js --exit"
   },
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
